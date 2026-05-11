@@ -5,7 +5,7 @@
 
 1-2-1. 파이썬, 주피터 extention 설치
 
-1-2-2. 깃허브 설치
+1-2-2. gitbash 설치 (https://git-scm.com/install/windows)
 
 ## 2. 깃허브 VSCODE 연동
 
