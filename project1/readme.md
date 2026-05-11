@@ -19,4 +19,14 @@
 
 git config --global user.name "Hayeon107"
 
-3-4. VSCODE에서 F1 > git clone > 레포선택 (?)
+2-4. VSCODE에서 F1 > git clone > 레포선택
+
+## 3. 가상환경 세팅
+3-1. 주피터 세팅 :
+ python -m venv venv #venv 폴더에 가상환경 생성
+ .\venv\Scripts\Activate.ps1 #powershell 활성화
+3-2. 주피터 설치 : python -m pip install notebook ipykernel
+3-3. 인터프리터 연결 : Ctrl + shift + P -> Python: Select Interpreter -> RAGTEST/venv 안의 python 선택
+
+## 4. 필요라이브러리 설치
+4-1. 
