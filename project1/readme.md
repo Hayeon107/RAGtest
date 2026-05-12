@@ -23,10 +23,14 @@ git config --global user.name "Hayeon107"
 
 ## 3. 가상환경 세팅
 3-1. 주피터 세팅 :
- python -m venv venv #venv 폴더에 가상환경 생성
- .\venv\Scripts\Activate.ps1 #powershell 활성화
+python -m venv venv #venv 폴더에 가상환경 생성
+.\venv\Scripts\Activate.ps1 #powershell 활성화
+python -m pip install --upgrade pip
+
 3-2. 주피터 설치 : python -m pip install notebook ipykernel
+
 3-3. 인터프리터 연결 : Ctrl + shift + P -> Python: Select Interpreter -> RAGTEST/venv 안의 python 선택
 
 ## 4. 필요라이브러리 설치
-4-1. 
+
+4-1. 랭체인 : python -m pip install langchain openai langchain-community faiss-cpu python-dotenv PyPDF2 tiktoken
