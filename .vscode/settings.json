@@ -1,3 +1,5 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system"
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python.jupyter.logging.level": "debug",
+    "python.jupyter.disableStartupPrompt": true
 }
